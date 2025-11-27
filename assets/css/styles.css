@@ -1,0 +1,35 @@
+/* Sticky footer layout */
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Header gradient - gray fade */
+.header-gradient {
+	background: linear-gradient(to bottom, #6c757d, #adb5bd);
+}
+
+/* Main background - orange with yellowey fade to the right */
+.main-gradient {
+	background: linear-gradient(to right, #ff8c00, #ffd700);
+	flex: 1;
+}
+
+/* Card styles */
+.card {
+	transition: transform 0.3s ease;
+}
+
+.card:hover {
+	transform: translateY(-5px);
+}
+
+.card-img-top {
+	height: 300px;
+	object-fit: cover;
+}
