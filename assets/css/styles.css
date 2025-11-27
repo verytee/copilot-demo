@@ -11,18 +11,19 @@ body {
 
 /* Header gradient - gray fade */
 .header-gradient {
-	background: linear-gradient(to bottom, #6c757d, #adb5bd);
+	background: #f8f9fa;
 }
 
 /* Main background - orange with yellowey fade to the right */
 .main-gradient {
-	background: linear-gradient(to right, #ff8c00, #ffd700);
+	background: linear-gradient(to right, #ff7f5f, #feb37a);
 	flex: 1;
 }
 
 /* Card styles */
 .card {
 	transition: transform 0.3s ease;
+	border: none;
 }
 
 .card:hover {
